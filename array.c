@@ -3,15 +3,17 @@
 
 int main()
 {
-    int a[5];
-    int i;
-    printf("enter 1d array:\n ");
-    for (int i = 0;i < 5; i++)
+    int n;
+    printf("enter number N:");
+    scanf("%d",&n);
+    int a[n];
+    printf("enter %d number to dislay:\n",n);
+    for(int i = 0;i < n; i++)
     {
-        scanf("%d" , &a[i]);
+        scanf("%d",&a[i]);
     }
-    printf("you enterd :\n");
-    for (int i = 0;i < 5; i++)
+    printf("the number you enterd is:\n");
+    for (int i = 0;i < n; i++)
     {
         printf("%d \n",a[i]);
     }
